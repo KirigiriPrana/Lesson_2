@@ -1,4 +1,3 @@
-print("Введите число месяца:")
 def month_to_season(n_month):
     if n_month in(12,1,2):
         print("Зима")
@@ -9,4 +8,4 @@ def month_to_season(n_month):
     elif n_month in(9,10,11):
             print ("Осень")
     else: return(print("Неверная цифра месяца"))
-month_to_season(int(input()))
+month_to_season(int(input("Введите число месяца:")))
